@@ -1,0 +1,7 @@
+In the HTML file, we have a <div> element with the class "clock" where the time will be displayed. We also added some basic CSS to style the clock.
+
+In the JavaScript file, we define the updateClock function. It uses the Date() object to get the current time and formats it into hours, minutes, and seconds. The formatted time is then displayed in the clock element by setting its textContent property.
+
+We call the updateClock function once to initialize the clock when the page loads. Then, we use setInterval to call the updateClock function every second to keep the clock updated.
+
+You can save these files in the same directory and open the HTML file in a web browser to see the digital clock in action
